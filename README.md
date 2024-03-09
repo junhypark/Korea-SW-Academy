@@ -8,4 +8,4 @@ This is for recording 2024 Korea Univ. SW Academy
 
 궁금하신 부분은 phjpurpleoob@gmail.com으로 이메일 주시면 감사하겠습니다
 
-또한, 수정 사항은 이슈 <https://github.com/junhypark/Korea-SW-Academy/issues/new> 로 알려주시면 감사하겠습니다
+또한, 수정 사항은 [이슈]<https://github.com/junhypark/Korea-SW-Academy/issues/new> 로 알려주시면 감사하겠습니다
