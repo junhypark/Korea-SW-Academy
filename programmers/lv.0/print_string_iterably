@@ -1,0 +1,5 @@
+a, b = input().strip().split(' ')
+b = int(b)
+print(a*b)
+
+# String multiple int = iterate string as int num
