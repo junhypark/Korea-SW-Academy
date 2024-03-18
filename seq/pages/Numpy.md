@@ -1,0 +1,38 @@
+- ![NumPy.pdf](../assets/NumPy_1710745948747_0.pdf)
+- 수학적 연산을 기본으로 만든 것이 아님
+- Array보다 빠르지만 hardware 성능 활용
+- vectorized - vector처럼 연산한다
+	- CPU 기반 병렬 계산
+- 본래의 Python list의 문제점
+	- C와 다르게 연속으로 값을 배치시키지 않았음
+	- 오히려 linked-list 타입이다
+- tensor와 똑같이 만들어진
+- **np.ndarray**
+	- nd - n dimension
+	- 3차원 이상을 tensor라고 한다
+	- array = data type / vector = 수학적 의미
+	- \_\_array\_\_ 있으면 numpy랑 연동이 가능하다
+- **np.array()**
+	- couorse로 인해 element 개수가 다르거나, type이 달라도 알아서 만들어준다
+- **shape**
+	- matrix의 크기를 return 한다
+- **ndim**
+	- matrix의 차원을 알려준다
+- **dtype**
+	- data type을 알려줌
+- tensorflow 에서 unpacking
+	- len으로 몇개 있는지 확인 후 unpack
+	- x,y = tf.~
+- **size**
+	- 원소의 개수
+	- shape에서 나오는 값들로도 충분히 알 수 있음
+- **itemsize**
+	- bit를 byte로 표현하는 것
+- **data**
+	- numpy에서는 일렬로 저장하기 때문에 memory 값이 나옴
+	- stride 라는 개념이 나옴
+	- stride tree 개념
+- **꼼수**
+	- 세상의 모든 것을 2차원으로 생각해라
+	- shape를 3,2,4로 하면 중간의 빈 선으로 나누고 2차원으로 해석한다
+- code: [numpy_1.ipynb](../assets/numpy_1_1710752124614_0.ipynb)

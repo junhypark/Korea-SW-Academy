@@ -1,0 +1,8 @@
+- 값을 만드는 방식 중 하나
+	- 원래는 literal, instance 두개로 만들 수 있었다
+	- 코드를 보면 이해가 될것
+- 공장에서 instance를 뽑아내는 것
+- 객체를 생성할 때, 어떤 클래스의 인스턴스를 만들지 서브 클래스에서 결정하는 방식
+- ![](https://github.com/ParkJiwoon/PrivateStudy/blob/master/design-pattern/images/screen_2022_05_27_00_20_31.png?raw=true)
+-
+- 값을 넣으면 원하는 형태로 찍어 내는 방식

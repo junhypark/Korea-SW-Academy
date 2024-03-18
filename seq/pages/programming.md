@@ -1,0 +1,20 @@
+- Numpy 전에 복습
+	- 값과 data, data type
+	- 값 = value / raw data
+		- ex) 65 int = 65 / char = A
+	- value + data type = data
+		- value를 만드는 방법
+		- [[Literal]]
+		- [[Instance]]
+	- Data type
+- 인공지능에서의 데이터 분석
+	- homogeneous data type을 보통 사용한다
+	- ex) range
+	- sequence data
+		- 순서가 있는 data가 필요
+		- indexing 과 slicing 이 필요한 기능이다
+	- homogeneous한 sequence 타입은? range
+	- 그 외에 array를 사용 가능함
+- [[Array]]
+- [[Numpy]]
+- [[Factory Method]]
