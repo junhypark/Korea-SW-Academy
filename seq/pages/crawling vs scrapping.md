@@ -1,0 +1,6 @@
+- crawling
+	- 전체 html 파일 필요
+	- large scale
+- scrapping
+	- 특정 url에서 원하는 부분만 추출 가능
+	- focused - large scale 끝없이 나옴

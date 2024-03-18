@@ -1,0 +1,11 @@
+- sqlite3
+	- [sqlite3_intro_2.ipynb](../assets/sqlite3_intro_2_1710774305109_0.ipynb)
+	- [sqlite_intro_3.ipynb](../assets/sqlite_intro_3_1710774312467_0.ipynb)
+	- [sql_intro_4.ipynb](../assets/sql_intro_4_1710774318827_0.ipynb)
+- Request, urllib, re, sqlalchemy
+	- [data_collect_1.ipynb](../assets/data_collect_1_1710774324501_0.ipynb)
+	- [data_collect_2.ipynb](../assets/data_collect_2_1710774371936_0.ipynb)
+	- [data_collect_3.ipynb](../assets/data_collect_3_1710774377619_0.ipynb)
+	- [data_collect_3.ipynb](../assets/data_collect_3_1710774382938_0.ipynb) - 2nd
+	- [data_collect_4.ipynb](../assets/data_collect_4_1710774392557_0.ipynb)
+	- [data_collect_5.ipynb](../assets/data_collect_5_1710774404409_0.ipynb)

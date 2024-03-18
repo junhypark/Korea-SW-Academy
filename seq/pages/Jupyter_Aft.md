@@ -1,0 +1,12 @@
+- Python Intro
+	- [python_intro.ipynb](../assets/python_intro_1710774425196_0.ipynb)
+	- [python_intro_2.ipynb](../assets/python_intro_2_1710774430041_0.ipynb)
+	- [python_intro_3.ipynb](../assets/python_intro_3_1710774434245_0.ipynb)
+	- [python_intro_4.ipynb](../assets/python_intro_4_1710774438469_0.ipynb)
+	- [python_intro_5.ipynb](../assets/python_intro_5_1710774444554_0.ipynb)
+	- [python_intro_6.ipynb](../assets/python_intro_6_1710774449221_0.ipynb)
+	- [python_intro_7.ipynb](../assets/python_intro_7_1710774453912_0.ipynb)
+	- [python_intro_8.ipynb](../assets/python_intro_8_1710774458394_0.ipynb)
+	- [python_intro_9.ipynb](../assets/python_intro_9_1710774464803_0.ipynb)
+- Numpy
+	- [numpy_1.ipynb](../assets/numpy_1_1710774481233_0.ipynb)
