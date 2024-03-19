@@ -19,6 +19,21 @@
 		  ```
 		- User를 instance화 하면 base에 저장되는 class가 된다
 		- 다시말해, db와는 아무 상관이 없다
+	- 초기화
+		- base, engine, session 모두 초기화를 해야함
+		- 초기화 후에는 engine 바인드 및 reflect를 해줘야 한다
+		- ```
+		  del base
+		  sess.close()
+		  engine.connect().close()
+		  engine.dispose()
+		  # 초기화
+		  
+		  # Reflect
+		  del base
+		  base = declarative_base()
+		  base.metadata.reflect(engine)
+		  ```
 	- usage
 		- ```
 		  from sqlalchemy.orm import relationship, sessionmaker

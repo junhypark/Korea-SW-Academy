@@ -1,5 +1,6 @@
 - ORM
-	- base
+	- # base
+	  collapsed:: true
 		- ```
 		  from sqlalchemy.ext.declarative import declarative_base
 		  base = declarative_base()
@@ -16,7 +17,8 @@
 			- 등록된 base를 날림
 			- class를 날리지만 table 객체는 살아있다
 			- 따라서, table 객체에서 불러오는 것이 가능하다
-	- engine
+	- # engine
+	  collapsed:: true
 		- ```
 		  from sqlalchemy.engine import create_engine
 		  engine = create_engine('sqlite:///:memory:', echo=True)
@@ -25,7 +27,8 @@
 		- echo 옵션의 경우 히스토리를 보고 싶으면 True로 설정해놓으면 된다
 		- **engine.dispose()**
 			- engine을 초기화한다
-	- session
+	- # session
+	  collapsed:: true
 		- ```
 		  from sqlalchemy.orm import sessionmaker
 		  session = sessionmaker(engine)
@@ -77,9 +80,12 @@
 					- uselist = True의 경우 collection을 참조한다
 					- uselist = False의 경우 single object를 참조한다
 					- 1:1의 경우에서 하나만 참조시에는 False를 준다
-	- 그 외
+	- # 그 외
+	  collapsed:: true
 		- ```
 		  from sqlalchemy.schema import Column, ForeignKey
 		  from sqlalchemy.types import Integer, Text
 		  ```
 	- [[example]]
+	- 구조
+	- ![image.png](../assets/image_1710857299503_0.png)

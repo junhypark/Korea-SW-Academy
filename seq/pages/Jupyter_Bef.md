@@ -9,3 +9,5 @@
 	- [data_collect_3.ipynb](../assets/data_collect_3_1710774382938_0.ipynb) - 2nd
 	- [data_collect_4.ipynb](../assets/data_collect_4_1710774392557_0.ipynb)
 	- [data_collect_5.ipynb](../assets/data_collect_5_1710774404409_0.ipynb)
+	- [data_collect_6.ipynb](../assets/data_collect_6_1710855775727_0.ipynb)
+	-
