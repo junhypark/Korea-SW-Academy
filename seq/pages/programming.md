@@ -17,4 +17,6 @@
 	- 그 외에 array를 사용 가능함
 - [[Array]]
 - [[Numpy]]
+	- [[Numpy_computation]]
 - [[Factory Method]]
+-

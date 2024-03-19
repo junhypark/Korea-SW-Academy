@@ -31,4 +31,6 @@ collapsed:: true
 - # Login
 	- asd
 - # Examples
-	- soon
+	- 3.19
+		- [scrap_prac.ipynb](../assets/scrap_prac_1710865009343_0.ipynb)
+		-

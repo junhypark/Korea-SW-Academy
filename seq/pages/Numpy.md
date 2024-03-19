@@ -52,6 +52,21 @@
 	   [0 1 2 3]
 	   [4 5 6 7]]
 	  ```
+- **np.split()**
+	- params: matrix, (nxm), axis
+		- axis = 1 수평으로 분할
+		- axis = 0 수직으로 분할
+		- (nxm) = 위치의 원소를 가지는 배열로 분할
+			- ex) (2,4) -> x[:0:2], x[:2:4], x[:4:6]
+			- ![image.png](../assets/image_1710862169486_0.png)
+	- params: matrix, num, axis
+		- axis는 동일
+		- num = 몇개로 분할할지 정함
+		- ![image.png](../assets/image_1710862232012_0.png)
+	- params: matrix, [num], axis
+		- axis는 동일
+		- [num] = num 만큼 slicing 함 ([:num])
+		- ![image.png](../assets/image_1710862351061_0.png)
 - **a.reshape()**
 	- 형태를 바꾼다
 	- ```
@@ -59,7 +74,6 @@
 	  array2 = array1.reshape((2,2))
 	  ```
 	- \[[1,2][3,4]]
-	-
 - **shape**
 	- matrix의 크기를 return 한다
 - **ndim**
