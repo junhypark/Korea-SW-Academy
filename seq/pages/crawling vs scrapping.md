@@ -29,8 +29,37 @@ collapsed:: true
 	- ![image.png](../assets/image_1710855223762_0.png){:height 171, :width 748}
 	- Headers를 보면 어떤 URL을 통해서 받는지 알 수 있다
 - # Login
-	- asd
+  collapsed:: true
+	- 로그인을 하려면 암호키를 받아서 암호화 한 후에 직접 서버로 날려줘야 한다
+	- 하지만, 불가능
+	- 따라서 cookie를 활용할 것
+	- #### Cookie
+		- client가 가지는 것은 cookie
+		- server가 가지는 것은 session
+		- 전략: cookie에 저장된 값들을 session으로 보내서 착각하게 만드는 것
 - # Examples
+  collapsed:: true
 	- 3.19
 		- [scrap_prac.ipynb](../assets/scrap_prac_1710865009343_0.ipynb)
-		-
+	- 3.20
+- ## Functions
+  collapsed:: true
+	- Login
+	- ```
+	  from requests.sessions import Session
+	  from requests.cookies import cookiejar_from_dict, create_cookie
+	  import re
+	  
+	  sess = Session()	# session 선언
+	  c = # cookie value, 드래그해서 복붙
+	  
+	  for kv in [line.split('\t')[:2] for line in c.splitlines()[1:]]:
+	  	sess.cookies.set(kv[0], kv[1])
+	  
+	  url = 'URL'
+	  params={
+	  	# data
+	  }
+	  
+	  resp = sess.request('METHOD', url, params=params)
+	  ```

@@ -1,4 +1,5 @@
 - Numpy 전에 복습
+  collapsed:: true
 	- 값과 data, data type
 	- 값 = value / raw data
 		- ex) 65 int = 65 / char = A
@@ -8,6 +9,7 @@
 		- [[Instance]]
 	- Data type
 - 인공지능에서의 데이터 분석
+  collapsed:: true
 	- homogeneous data type을 보통 사용한다
 	- ex) range
 	- sequence data
@@ -18,5 +20,9 @@
 - [[Array]]
 - [[Numpy]]
 	- [[Numpy_computation]]
+	- [[Numpy Knowledge]]
+	-
 - [[Factory Method]]
+- [[Python]]
+-
 -

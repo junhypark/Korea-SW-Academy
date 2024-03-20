@@ -10,3 +10,4 @@
 	- [python_intro_9.ipynb](../assets/python_intro_9_1710774464803_0.ipynb)
 - Numpy
 	- [numpy_1.ipynb](../assets/numpy_1_1710774481233_0.ipynb)
+	- [numpy_2.ipynb](../assets/numpy_2_1710925883262_0.ipynb)

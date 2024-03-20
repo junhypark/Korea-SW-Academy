@@ -7,7 +7,7 @@
 		- ![image.png](../assets/image_1710862693860_0.png)'
 		- ![image.png](../assets/image_1710862811525_0.png)
 		- 서로 다른 형태의 Numpy 연산도 가능하다
-		- 이유는 **브로드캐스트**이다
+		- ### 이유는 **브로드캐스트**이다
 			- 브로드캐스트 = 형태가 다른 배열을 연산할 수 있도록 배열의 형태를 동적으로 변환
 			- 브로드캐스트 조건
 				- 차원의 크기가 1일때 가능하다
@@ -28,12 +28,12 @@
 		- params = axis, dtype, out, keepdims, initial, where
 			- axis = 각 열(0), 행(1)의 최소 값을 구하게 할 수 있음
 			- dtype = 반환할 type / int32, float32, float64, etc.
-			- out = 모르겠다
+			- out = return할 matrix의 size
 			- keepdims = dimension을 맞춰서 출력할지 정함, True or False
 				- ![image.png](../assets/image_1710864409620_0.png)
 			- initial = 결과로 나올 값의 최소값 설정
 				- ![image.png](../assets/image_1710864507188_0.png)
-			- where = 모르겠다
+			- where = boolean 조건에 부합하는 애들만, 마찬가지로 size가 맞아야함
 				- ![image.png](../assets/image_1710864854310_0.png)
 		- np.max()
 			- array 내에서 가장 큰 값을 출력
@@ -44,4 +44,16 @@
 		- np.mean()
 			- array 모든 값들의 평균 출력
 			- initial, where 없음
--
+	- ## 내적, 외적
+		- np.dot(array1, array2)
+			- 각각 곱한 것을 곱해서 더하는 것
+			- a@b로 표기할 수 있다
+			- 즉, decorator를 연산자로 쓸 수 있게 해주었다
+			- 2차원일 때는 행렬의 곱으로 사용됨
+	- ## Indexing & Slicing
+		- 2차원에서 특정 값을 뽑고싶을 때, 좌표값으로 indexing이 가능하다
+		- Comma indexing
+			- ![image.png](../assets/image_1710924174176_0.png)
+		- Boolean indexing
+			- ![image.png](../assets/image_1710924509650_0.png)
+			- True인 애만 return한다

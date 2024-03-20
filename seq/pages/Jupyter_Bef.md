@@ -10,4 +10,5 @@
 	- [data_collect_4.ipynb](../assets/data_collect_4_1710774392557_0.ipynb)
 	- [data_collect_5.ipynb](../assets/data_collect_5_1710774404409_0.ipynb)
 	- [data_collect_6.ipynb](../assets/data_collect_6_1710855775727_0.ipynb)
+	- [data_collect_7.ipynb](../assets/data_collect_7_1710925901378_0.ipynb)
 	-

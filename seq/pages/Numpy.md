@@ -25,6 +25,18 @@
 - **np.ones()**
 	- zeros와 비슷하게 1로 채우는 함수를 의미함
 	- ``np.ones((4,4), dtype=float)``
+- **np.ones_like()**
+	- matrix만큼 1로 채워진 같은 사이즈의 행렬을 만듦
+	- ![image.png](../assets/image_1710920713476_0.png)
+- **np.triu() / np.tril()**
+	- upper matrix / argument에는 (3,4)라 하면
+	- ![image.png](../assets/image_1710920446079_0.png)
+- **np.identity()**
+	- identity 만드는 것
+	- nxm 넣어주면 됨
+- **np.eye()**
+	- 행, 열로 argument 넣어줌
+	- ![image.png](../assets/image_1710920513503_0.png)
 - **np.random**
 	- np.ranom.randint()
 		- 1st arg - start point
@@ -67,6 +79,53 @@
 		- axis는 동일
 		- [num] = num 만큼 slicing 함 ([:num])
 		- ![image.png](../assets/image_1710862351061_0.png)
+- **np.save()**
+	- params = filename, array
+	- array를 filename으로 저장한다
+	- 확장자는 .npy이다
+	- 불러올때는 **np.load(filename)**를 통해 불러올 수 있다
+- **np.savez()**
+	- 여러개의 array를 하나의 file로 저장 가능
+	- 확장자 명은 .npz이다
+	- ```
+	  data = np.savez('saved.npz', array1=arr1, array2=arr2)
+	  data['array1']
+	  data['array2']
+	  ```
+- **np.sort()**
+	- params = arrays, axis
+	- axis = 0 열을 기준으로 정렬
+	- ![image.png](../assets/image_1710890688793_0.png)
+	- axis = 1 행을 기준으로 정렬
+	- ![image.png](../assets/image_1710890705698_0.png){:height 193, :width 505}
+	- Numpy 원소를 정렬해준다
+	- ```
+	  # a가 numpy array일때
+	  t1 = np.sort(a) # returns array a
+	  # 이때는 t1에 sorted array를 저장
+	  # a는 바뀌지 않는다
+	  # 혹은
+	  a.sort() # a 자체를 바꿔버린다
+	  ```
+- **np.linspace()**
+	- params = start, endpoint, space
+	- 0부터 10까지 space 개수만큼 생성
+	- ![image.png](../assets/image_1710890872889_0.png)
+- **np.random.seed()**
+	- params = num
+	- 난수를 생성한다
+	- random 시 나오는 값들을 고정시켜준다
+	- 즉, seed가 리셋되지 않으면 random 시에 매번 다른 수가 나온다
+	- 반대로 말하면 seed가 달라지면 rand는 계속해서 다른 수가 나온다
+	- ![image.png](../assets/image_1710891242972_0.png)
+- **np.lookfor(), np.info()**
+	- Helping method
+- **a.copy()**
+	- Numpy 배열 객체를 복사한다
+	- copy 시에는 서로 다른 memory address를 가진다
+- **np.unique()**
+	- 중복된 원소를 제거해준다
+	- ex) ``np.unique(array1)``
 - **a.reshape()**
 	- 형태를 바꾼다
 	- ```
@@ -96,3 +155,4 @@
 	- 세상의 모든 것을 2차원으로 생각해라
 	- shape를 3,2,4로 하면 중간의 빈 선으로 나누고 2차원으로 해석한다
 - code: [numpy_1.ipynb](../assets/numpy_1_1710752124614_0.ipynb)
+-
