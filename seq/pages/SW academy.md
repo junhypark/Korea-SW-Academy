@@ -7,5 +7,5 @@
 	- [[Jupyter_Aft]]
 	- [[Project]]
 - Assignment
-	- 1st assignment: 파이썬 자습서 질문 모음
+	- 1st assignment: [python_1st.ipynb](../assets/python_1st_1710944703786_0.ipynb) / ![Assignment1_Python.pdf](../assets/Assignment1_Python_1710944706104_0.pdf)
 	- 2nd assignment: 포스터 + 해시태그
