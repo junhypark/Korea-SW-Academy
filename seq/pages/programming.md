@@ -21,8 +21,6 @@
 - [[Numpy]]
 	- [[Numpy_computation]]
 	- [[Numpy Knowledge]]
-	-
 - [[Factory Method]]
 - [[Python]]
--
 -

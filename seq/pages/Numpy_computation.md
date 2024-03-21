@@ -57,3 +57,15 @@
 		- Boolean indexing
 			- ![image.png](../assets/image_1710924509650_0.png)
 			- True인 애만 return한다
+		- Fancy indexing
+			- ![image.png](../assets/image_1711009607500_0.png)
+			- dictionary의 np에서는 key값 두개를 바꿔서 넣어도 사용 가능하다
+		- 그 외에 **[][] 두개의 indexing**
+		- 또 다른 하나는 **comma indexing** (1,2)
+	- ## 차원 확장
+		- **a[None]**
+		- ![image.png](../assets/image_1711010245042_0.png)
+	- ## Universal Functions
+		- python의 data type과 유연하게 사용 가능한 방법
+		- dir 안의 \_\_array_ufunc\_\_이 있으면 사용 가능하다
+		-

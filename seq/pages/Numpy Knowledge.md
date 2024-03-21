@@ -2,4 +2,17 @@
 	- ### elementwise
 		- 각 계산을 한번에 실행함 / element별로 계산함
 		- 숫자가 클 때 유리하다
-	-
+	- ### Numpy
+		- numpy는 mutable이다
+			- 그래서 copy를 사용한다
+			- np.copy는 default가 deep copy다
+			- 이때의 copy는 **deep copy**이다
+			- np.view 는 default가 **shallow copy**다
+			- 사용 시기는 **원본 데이터를 지키고 싶을때 np.copy**
+			-
+		- copy의 종류가 여러개가 존재한다
+			- **deep copy** = value만 copy
+			- **shallow copy** = address copy
+			- python 기본 copy는 shallow copy이다
+			- copy에서 deecopy를 사용하면 deep copy다
+		-
