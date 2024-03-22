@@ -47,3 +47,7 @@
 		- 부를때는 a
 		- str - 특수문자 escape 처리
 		- 부를때는 print(a)
+	- **readline vs next**
+		- readline은 stop iteration이 존재함
+		- next는 존재하지 않음
+	-

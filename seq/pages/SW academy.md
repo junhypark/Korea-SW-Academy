@@ -3,6 +3,7 @@
 	- [[Data Collect]]
 	- [[Data Mining]]
 	- [[Meetings]]
+	- [[NLP]]
 - Codes
 	- [[Jupyter_Bef]]
 	- [[Jupyter_Aft]]

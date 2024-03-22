@@ -43,4 +43,11 @@
 			- 이때 matrix의 성질을 그대로 따라간다
 			- * 연산은 element의 곱이 아니라 matrix 곱으로 간다
 			- ![image.png](../assets/image_1711091038741_0.png)
-			-
+	- ### numpy의 메모리
+		- **a.strides**는 elements의 indexing을 하기 위해서 필요한 값을 의미한다
+		- Numpy는 기본적으로 C와 같이 값이 메모리에 한 줄로 저장된다
+		- ![image.png](../assets/image_1711101971416_0.png)
+	- ### Axis의 인지법
+		- axis가 0이면 size에서 0번쨰를 지운 5,7 사이즈의 array가 나와야 한다
+		- ![image.png](../assets/image_1711102239316_0.png)
+		-

@@ -141,12 +141,18 @@
 	- (3,-1) - shape을 기본으로 준다
 	- ![image.png](../assets/image_1711086596582_0.png)
 	- 이때 모든 minus 값은 똑같은 기능을 하며 음수 값은 하나만 넣을 수 있다
+	- 또한 **order**의 옵션을 바꿔서 값을 바꿀 수 있다
+	- ![image.png](../assets/image_1711102347089_0.png)
 - **np.resize()**
 	- 자기 자신이 바뀐다
 	- elements의 개수를 바꿀 수 있다
 	- ![image.png](../assets/image_1711086911402_0.png)
 	- 더 크게 키우면 0으로 채워준다
 	- ![image.png](../assets/image_1711086966901_0.png)
+- **np.save() / np.load()**
+	- numpy array 자체를 저장하게 할 수 있다
+	- save는 .npy의 파일 확장자명으로 저장할 수 있다
+	- load는 .npy로 저장된 파일을 불러올 수 있다
 - **a.flatten()**
 	- 배열을 1차원으로 만들어준다
 	- 내장으로 copy tech가 존재한다

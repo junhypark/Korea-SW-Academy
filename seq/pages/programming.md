@@ -24,3 +24,6 @@
 	- [[Numpy Knowledge]]
 - [[Factory Method]]
 - [[Python]]
+	- [[map, filter, reduce]]
+- [[Pickle]]
+-
