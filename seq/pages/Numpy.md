@@ -126,13 +126,37 @@
 - **np.unique()**
 	- 중복된 원소를 제거해준다
 	- ex) ``np.unique(array1)``
-- **a.reshape()**
+- **np.reshape()**
 	- 형태를 바꾼다
 	- ```
 	  array1 = np.array([1,2,3,4])
 	  array2 = array1.reshape((2,2))
 	  ```
 	- \[[1,2][3,4]]
+	- *이때 array2를 바꾸면 array1 또한 바뀐다*
+	- ![image.png](../assets/image_1711086051219_0.png)
+	- np.shape()로 넣을 시에는 size를 꼭 괄호 안에 넣어서 주어야 한다
+	- ![image.png](../assets/image_1711086426069_0.png)
+	- shape를 바꾸려면 element 개수가 같게해야한다
+	- (3,-1) - shape을 기본으로 준다
+	- ![image.png](../assets/image_1711086596582_0.png)
+	- 이때 모든 minus 값은 똑같은 기능을 하며 음수 값은 하나만 넣을 수 있다
+- **np.resize()**
+	- 자기 자신이 바뀐다
+	- elements의 개수를 바꿀 수 있다
+	- ![image.png](../assets/image_1711086911402_0.png)
+	- 더 크게 키우면 0으로 채워준다
+	- ![image.png](../assets/image_1711086966901_0.png)
+- **a.flatten()**
+	- 배열을 1차원으로 만들어준다
+	- 내장으로 copy tech가 존재한다
+	- 즉, address값을 받는 것이 아니다
+	- ![image.png](../assets/image_1711087181835_0.png)
+	- ![image.png](../assets/image_1711087271065_0.png)
+- **a.ravel()**
+	- copy tech가 아니다
+	- address를 return함과 동시에 1차원으로 펴준다
+	- ![image.png](../assets/image_1711087406516_0.png)
 - **shape**
 	- matrix의 크기를 return 한다
 - **ndim**

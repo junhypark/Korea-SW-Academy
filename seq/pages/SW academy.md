@@ -1,6 +1,7 @@
 - Documents
 	- [[programming]]
 	- [[Data Collect]]
+	- [[Data Mining]]
 	- [[Meetings]]
 - Codes
 	- [[Jupyter_Bef]]

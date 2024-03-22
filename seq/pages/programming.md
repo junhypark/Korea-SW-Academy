@@ -17,10 +17,10 @@
 		- indexing 과 slicing 이 필요한 기능이다
 	- homogeneous한 sequence 타입은? range
 	- 그 외에 array를 사용 가능함
+- Numpy에 없는 것을 사용할때는 scipy를 사용해야 한다
 - [[Array]]
 - [[Numpy]]
 	- [[Numpy_computation]]
 	- [[Numpy Knowledge]]
 - [[Factory Method]]
 - [[Python]]
--
