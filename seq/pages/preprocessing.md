@@ -1,0 +1,32 @@
+- 얼만큼의 텍스트를 feature로 잡는게 좋을까? 최소한의 feature 크기
+	- 한글은 형태소 분석을 하는데 이때, tokenizer를 사용
+	- 구문분석 - 문장의 주부와 술부, 구성성분들 분석, 공기어 (co-occurrence / co-occurrence matrix와 같은 개념)
+	- 담화 - 문장 - 단어 - 형태소
+	- 위의 구조대로 쪼개질 수 있다
+- 확률
+	- MLE - maximum likelihood estimation
+		- 무언가가 주어졌을때 이 상황 속의 확률을 최대화 해주는 함수
+		- 상대적인 빈도 / 서로 연결되어 있을 경우 (결합확률, 조건부확률, 개별확률 관계 이용)
+		- binomial distribution - 확률이 반반인 경우 사용 (= 베르누이 distribution)
+			- 시행 횟수와 확률이 필요하다
+			- 로그를 씌움으로써 지수를 내릴 수 있음 - 합으로 나눌 수 있고 - 미분을 통해 극점을 찾아서 사용
+			- 이때 오차율을 낮추기 위해서는 N 즉, 시행횟수를 늘려야 우리가 원하는 argmax값이 ideal한 값으로 점차 가까워지므로 데이터의 수가 많은게 좋다
+		- 이때 likelihood는 argmax의 ideal한 값을 의미한다
+	- Maximum A Posteriori Estimation
+		- 숫자가 커질수록 (시행횟수가 커질수록) MLE의 결과와 비슷할 것이다
+	- Bayes Theorem
+		- 조건부 확률 - P(A,B)가 P(B,A)와 같은 것을 기준으로 전개
+		- 이때 P(A,B) = P(A|B)P(B)
+		- Result = P(B|A) = P(A|B)  (= likelihood) * P(B) (=prior) / P(A) (evidence, constant)
+		- marginalization (중요)
+		- Factorization - chain rule에 의해서 변경됨 (원래는 2의 n제곱으로 경우의 수가 나온던게)
+		- 즉, P(A,B,C,...,Z) --> P(A|B,C,...,Z) * P(B|C,D,...Z) * ... * P(Z)
+		- 이 관계를 text에 입힌다
+			- 첫 어절 A, 라 했을때 case는 많이 존재한다
+			- 이때 모든 case 데이터가 있어야만 P(A) 계산 가능하다
+			- 하지만 본래 불가능하지만 이 naive bayse 등등을 활용하여 가능하게끔 만들어준다
+	- NLTK
+		- classification, tokenization, stemming, tagging, parsing, and semantic reasoning 등을 지원해줌
+		- 사용되는 도구로써 사용할 것
+		- 한글 지원 안함
+		-

@@ -26,4 +26,5 @@
 - [[Python]]
 	- [[map, filter, reduce]]
 - [[Pickle]]
+- [[Data]]
 -
